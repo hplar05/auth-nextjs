@@ -47,7 +47,7 @@ export default function SignupPage() {
   return (
     <div className="h-[1000px] flex items-center justify-center">
       <div className="border rounded-3xl flex flex-col items-center justify-center h-[450px] w-[400px] py-2">
-        <h1>{loading ? "Processing" : "Signup"}</h1>
+        <h1 className="mb-7 text-xl">{loading ? "Processing" : "Signup"}</h1>
         <hr />
         <label htmlFor="username">username</label>
         <input
